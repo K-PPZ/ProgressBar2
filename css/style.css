@@ -1,0 +1,17 @@
+div {
+    width: 300px;
+}
+
+#Bar {
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 300px;
+    background-color: grey;
+}
+
+#Progress {
+    border-radius: 30px;
+    width: 1%;
+    height: 30px;
+    background-color: rgb(96, 255, 96);
+}
