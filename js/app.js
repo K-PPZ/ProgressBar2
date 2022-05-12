@@ -2,7 +2,7 @@ let width = 0;
 
 function move() {
     let progressing = document.getElementById("Progress");
-    let interval = setInterval(progression, Math.random() * (10 - 100) + 100);
+    let interval = setInterval(progression, Math.random() * (100 - 10) + 1);
 
     function progression () {
         width ++;
